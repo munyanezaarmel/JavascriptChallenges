@@ -4,7 +4,7 @@ var prime = [];
 function isPrime(item) {
     var identifier = item / 2;
       for (var j = 2; j <= identifier; j++) {
-       if ((item % j) == 0) { // modulous
+       if ((item % j) == 0) {
         return false;
        } 
      }
